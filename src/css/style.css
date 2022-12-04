@@ -1,0 +1,83 @@
+.container{
+    display: flex;
+
+}
+.import_form{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #7EB3FF;
+    background: #E5F0FF;
+}
+
+.label_import{
+    font-size: 5vh;
+    color: #242240;
+}
+
+.csv_import{
+    margin-top: 10%;
+}
+
+.custom_file_input {
+    color: transparent;
+  }
+  .custom_file_input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .custom_file_input::before {
+    content: 'add file';
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 14px 42px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+  }
+
+  .btn_import {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 1px 0px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  .btn_color {
+    background: #242240;
+    background: linear-gradient(0deg, #0070A5 100%);
+    border: none;
+    
+  }
+  .btn_color:before {
+    height: 0%;
+    width: 2px;
+  }
+  .btn_color:hover {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  }
+
+  .text_import{
+    font-size: 20px;
+    position: absolute;
+  }
